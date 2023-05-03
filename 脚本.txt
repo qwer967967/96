@@ -8,7 +8,9 @@ local player = Window:MakeTab({
 	PremiumOnly = false
 })
 player:AddParagraph("公告","加入我们的qq群533463049")
-player:AddParagraph("答辩","作者qwer967967")
+player:AddParagraph("你好我叫丁真","感谢o.o 纳西妲 杰瑞和大家提供的帮助")
+player:AddParagraph("你好我叫丁真","不智齿⭕️💰脚本 龙脚本and河流")
+player:AddParagraph("你好我叫丁真",里面的脚本都进行过测试，没有问题，请大家放心食用")
 player:AddButton({ 
 	Name = "键盘",
 	Callback = function()
@@ -261,7 +263,7 @@ player:AddTextbox({
 })
 
 player:AddToggle({
-	Name = "误食114514个手电筒的后果",
+	Name = "误食114514个手电筒的后果（纳西妲）",
 	Default = false,
 	Callback = function(Value)
 		if Value then
@@ -273,7 +275,7 @@ player:AddToggle({
 })
 
 player:AddButton({
-	Name = "轰炸空间镇魂曲",
+	Name = "轰炸空间镇魂曲（纳西妲）",
 	Callback = function()
       	Tool = Instance.new("Tool")
         Tool.Name = "消除空间的能力"
@@ -652,6 +654,7 @@ player:AddButton({
       	loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
   	end
 })
+player:AddParagraph("亻 尔 女 子","我是彩蛋")
 
 local player = Window:MakeTab({
 	Name = "打墙模拟器",
@@ -885,7 +888,7 @@ player:AddButton({
 })
 
 local player = Window:MakeTab({
-	Name = "bf",
+	Name = hohof",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -893,7 +896,7 @@ local player = Window:MakeTab({
 player:AddButton({ 
 	Name = "1",
 	Callback = function()
-        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()  	
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua"))()
   	end
 })
 local player = Window:MakeTab({
@@ -922,6 +925,19 @@ player:AddButton({
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Min1273/n-to/main/README.md"))()
+  	end
+})
+
+local player = Window:MakeTab({
+	Name = "起床",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+player:AddButton({ 
+	Name = "1（搭配键盘左shift使用）",
+	Callback = function()
+      	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
   	end
 })
 OrionLib:Init()
